@@ -26,3 +26,52 @@ function longestVel(string) {
   //   console.log(Math.max(...arr));
 }
 longestVel(["kunal", "love", "react", "webDeveloper"]);
+
+// Given an array of objects, write a function that returns the number of objects in the array that have a specific property using the length property.
+
+function arrObject(obj) {
+  let list = [];
+  obj.forEach((loopObj) => {
+    list.push(loopObj.id);
+  });
+  //   console.log(list.length);
+}
+
+arrObject([
+  {
+    userId: 1,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+  },
+  {
+    userId: 1,
+    id: 2,
+    title: "quis ut nam facilis et officia qui",
+    completed: false,
+  },
+  {
+    userId: 1,
+    id: 3,
+    title: "fugiat veniam minus",
+    completed: false,
+  },
+  {
+    userId: 1,
+    id: 4,
+    title: "et porro tempora",
+    completed: true,
+  },
+  {
+    userId: 1,
+    id: 5,
+    title: "laboriosam mollitia et enim quasi adipisci quia provident illum",
+    completed: false,
+  },
+  {
+    userId: 1,
+    id: 6,
+    title: "qui ullam ratione quibusdam voluptatem quia omnis",
+    completed: false,
+  },
+]);
